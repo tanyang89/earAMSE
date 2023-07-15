@@ -272,7 +272,7 @@ def get_melspectrogram_layer(
     if input_shape is not None:
         stft_kwargs['input_shape'] = input_shape
 
-    waveform_to_stft = STFT( # 短时傅里叶变换
+    waveform_to_stft = STFT(
         **stft_kwargs,
         n_fft = n_fft,
         win_length = win_length,
@@ -284,7 +284,7 @@ def get_melspectrogram_layer(
         output_data_format = output_data_format,
     )
 
-    stft_to_stftm = Magnitude() # 转为为功率谱
+    stft_to_stftm = Magnitude()
 
     kwargs = {
         'sample_rate': sample_rate,
