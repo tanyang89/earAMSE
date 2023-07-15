@@ -12,3 +12,4 @@ When you use it, download the brunch named "maseter" and use to install python t
 
 4. Enter the command: Enter the command: python setup.py build.
 
+The earAMSE library is now installed in your environment.
