@@ -15,6 +15,10 @@ When you use it, download the brunch named "maseter" and use to install python t
 
 The earAMSE library is now installed in your environment.
 
+# Requirements
+
+1
+
 # Usage
 
 The adaptive Mel-related spectrogram layer can be used in the following three ways:
