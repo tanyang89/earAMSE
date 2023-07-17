@@ -17,7 +17,11 @@ The earAMSE library is now installed in your environment.
 
 # Requirements
 
-1
+The minimal requirements to install earAMSE are listed below.
+
+1. Python 3.8.0
+2. Keras 2.10.0
+3. kapre 0.3.4
 
 # Usage
 
