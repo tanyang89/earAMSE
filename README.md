@@ -17,6 +17,8 @@ The earAMSE library is now installed in your environment.
 
 # Usage
 
+The adaptive Mel-related spectrogram layer can be used in the following three ways:
+
 1. Sequential API
    
 input_shape = (2, 2048) 
@@ -40,5 +42,7 @@ x = self.get_melspectrogram_layer(name='mel',n_fft=n_fft,sample_rate=sample_rate
                                           trainable = trainable, num_classes=outputclasses) (inputs)
 
 3. Subclassing API
+
+After the network is trained completely, the figures of the adaptive Mel fiter banks dedicated to each network can be shown in the following way:
 
 # Citing
