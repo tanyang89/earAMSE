@@ -1,7 +1,7 @@
 # earAMSE
 earAMSE is the first open-source toolkit for a trainable Mel spectrogram, whose full name is open-source trainable Mel filter banks transformed feature extractor.
 
-# Installation：
+# Installation
 
 When you use it, download the brunch named "maseter" and use to install python third-party libraries via setup.py.
 
@@ -15,7 +15,7 @@ When you use it, download the brunch named "maseter" and use to install python t
 
 The earAMSE library is now installed in your environment.
 
-Usage：
+# Usage
 
 1. Sequential API
    
