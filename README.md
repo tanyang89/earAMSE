@@ -41,3 +41,4 @@ x = self.get_melspectrogram_layer(name='mel',n_fft=n_fft,sample_rate=sample_rate
 
 3. Subclassing API
 
+# Citing
