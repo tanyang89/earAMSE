@@ -45,4 +45,12 @@ x = self.get_melspectrogram_layer(name='mel',n_fft=n_fft,sample_rate=sample_rate
 
 After the network is trained completely, the figures of the adaptive Mel fiter banks dedicated to each network can be shown in the following way:
 
+First, a siginicant prerequisite is to save the model (.h5 file).
+
+Second, in order to extracts Mel filter coefficients from a model file and stores them in an Excel file, call the "show_AMs" function.
+
+Third, call the "AMFBs_plot" function to plot and save the Mel filter banks.
+
+Detailed example usage are described in the code.
+
 # Citing
