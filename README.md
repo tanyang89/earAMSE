@@ -17,4 +17,22 @@ The earAMSE library is now installed in your environment.
 
 Usage：
 
+1. Sequential API
+input_shape = (2, 2048) 
+mel_layer = get_melspectrogram_layer(name='mel',n_fft=n_fft,sample_rate=sample_rate,n_mels=n_mels,
+                                          win_length=win_length,hop_length=hop_length,
+                                          return_decibel=return_decibel, input_data_format=input_data_format,
+                                          trainable = trainable, num_classes=outputclasses)
+model = Sequential()
+model.add(mel_layer)
+
+2. Functional API (We recommend to use the adaptive Mel layer with functional API.)
+inputs = Input(shape=input_shape)
+x = self.get_melspectrogram_layer(name='mel',n_fft=n_fft,sample_rate=sample_rate,n_mels=n_mels,
+                                          win_length=win_length,hop_length=hop_length,
+                                          return_decibel=return_decibel, input_data_format=input_data_format,
+                                          trainable = trainable, num_classes=outputclasses) (inputs)
+
+
+3. Subclassing API
 
